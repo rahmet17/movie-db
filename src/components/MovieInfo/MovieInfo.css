@@ -1,0 +1,38 @@
+.movieinfo-content {
+  display: flex;
+  justify-content: center;
+}
+
+.movieinfo-item {
+  min-width: 350px;
+}
+
+.movieinfo-text {
+  min-width: 350px;
+  padding: 0 20px 20px 20px;
+  color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.movieinfo-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.movieinfo-text h3 {
+  font-size: 16px;
+  line-height: 0;
+  margin-top: 30px;
+}
+
+.movieinfo-text p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .movieinfo-content {
+    flex-wrap: wrap;
+  }
+}
